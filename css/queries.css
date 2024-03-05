@@ -1,0 +1,316 @@
+@media (max-width: 1400px) {
+  .navigition {
+    margin-left: 12.5rem;
+    gap: 3rem;
+  }
+  .skil-nav {
+    display: block;
+
+    padding-bottom: 5rem;
+  }
+  .div-marque nav img {
+    height: 12rem;
+    width: 15rem;
+  }
+}
+@media (max-width: 1158px) {
+  .div-marque {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .section--5 {
+    display: block;
+    padding-left: 15rem;
+  }
+  .navigition {
+    margin-left: 9rem;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    margin-left: 40rem;
+  }
+  header nav a {
+    box-shadow: none;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .navigition {
+    position: fixed;
+    left: -150%;
+    top: 90px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 500, 0.9);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  header nav a {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .navigition.active {
+    left: -9rem;
+  }
+  .hamburger.avtive .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.avtive .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.avtive .bar:nth-child(1) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .div-marque {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .div-marque nav img {
+    height: 10rem;
+    width: 13rem;
+  }
+}
+@media (max-width: 980px) {
+  .info :first-child {
+    display: none;
+  }
+  .hamburger {
+    margin-left: 35rem;
+  }
+  .section--1 img {
+    height: 17rem;
+    width: 15rem;
+  }
+  .hi,
+  .job,
+  .info0 {
+    margin-left: 0;
+  }
+  .section--5 {
+    padding-left: 20rem;
+  }
+}
+@media (max-width: 880px) {
+  .hamburger {
+    margin-left: 32rem;
+  }
+  .section--1 {
+    display: block;
+    padding-left: 15rem;
+  }
+  .hi {
+    margin-top: 3rem;
+  }
+  .info :first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  * {
+    font-size: 90%;
+  }
+  .section--1 img {
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 770px) {
+  .hamburger {
+    margin-left: 25rem;
+  }
+  .div-marque nav img {
+    height: 8rem;
+    width: 11rem;
+  }
+  .section--1 img {
+    height: 15rem;
+    width: 12rem;
+  }
+  .section--1 {
+    padding-left: 3rem;
+  }
+  .service-nav {
+    display: block;
+  }
+  .section--5 {
+    padding-left: 15rem;
+  }
+  .service-nav div {
+    margin: 0 auto;
+  }
+  .section--1 {
+    display: block;
+    padding-left: 15rem;
+  }
+  .section--1 img {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 650px) {
+  .div-marque nav img {
+    height: 8rem;
+    width: 9rem;
+  }
+  header h2 {
+    margin-left: 0;
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 570px) {
+  .hamburger {
+    margin-left: 20rem;
+  }
+  .section--1 {
+    padding-left: 10rem;
+  }
+  .div-marque nav img {
+    height: 6rem;
+    width: 7rem;
+  }
+  .section--5 {
+    padding-left: 10rem;
+  }
+  footer {
+    max-width: 37rem;
+  }
+  footer h2 {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .hamburger {
+    margin-left: 18rem;
+  }
+  footer {
+    max-width: 32rem;
+  }
+  footer h2 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+  .div-marque {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .section--5 {
+    padding-left: 8rem;
+  }
+  header h2 {
+    font-size: 1.8rem;
+    margin-left: 0;
+  }
+  .html,
+  .html1,
+  .html2,
+  .html3,
+  .html4,
+  .html5,
+  .html6 {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 450px) {
+  .hamburger {
+    margin-left: 15rem;
+  }
+  .section--1 {
+    padding-left: 4rem;
+  }
+
+  header h2 {
+    margin-left: 2rem;
+  }
+  .div-marque {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer {
+    max-width: 31rem;
+  }
+  footer h2 {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  .html,
+  .html1,
+  .html2,
+  .html3,
+  .html4,
+  .html5,
+  .html6 {
+    width: 15rem;
+    height: 1.5rem;
+  }
+
+  .html2::before,
+  .html::before,
+  .html3::before,
+  .html4::before,
+  .html5::before,
+  .html6::before {
+    left: 15rem;
+    height: 1.5rem;
+  }
+  .html p,
+  .html1 p,
+  .html2 p,
+  .html3 p,
+  .html4 p,
+  .html5 p,
+  .html6 p {
+    margin-left: 19rem;
+  }
+
+  .section--5 {
+    padding-left: 3rem;
+  }
+
+  header h2 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .hamburger {
+    margin-left: 10rem;
+  }
+  .html,
+  .html1,
+  .html2,
+  .html3,
+  .html4,
+  .html5,
+  .html6 {
+    margin-left: 1rem;
+  }
+  .div-marque {
+    gap: 5px;
+  }
+  footer {
+    max-width: 31rem;
+  }
+  footer h2 {
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+  }
+  .service-nav div p {
+    margin: 0 auto;
+  }
+  .myimage {
+    margin-left: 0;
+  }
+  .section--1 img {
+    margin-left: 2rem;
+  }
+  .html,
+  .html1,
+  .html2,
+  .html3,
+  .html4,
+  .html5,
+  .html6 {
+    margin-left: 0;
+  }
+}
