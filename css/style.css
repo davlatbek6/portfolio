@@ -326,7 +326,7 @@ header nav a:hover {
   left: 18rem;
 }
 .html6::after {
-  content: "COMPUTER";
+  content: "TAILWIND CSS";
   position: absolute;
   top: -2.3rem;
   font-weight: 900;
